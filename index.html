@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Soda</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <h1 class="header__logo-title">SODA</h1>
+      <div class="header__image-wrapper">
+        <img class="header__image" src="./images/botles.png" alt="" />
+      </div>
+      <div class="header__image-creative-wrapper">
+        <img
+          class="header__image-creative"
+          src="./images/madeInEarth.svg"
+          alt=""
+        />
+      </div>
+      <div class="header__sbttl-btn-wrapper">
+        <h2 class="header__subtitle">
+          Вкусные лимонады <br />
+          из фруктов
+        </h2>
+        <button class="header__button more-info">Подробнее</button>
+      </div>
+    </header>
+    <main class="content">
+      <span class="creative">
+        <p class="creative__paragraph">
+          Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh
+          — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh —
+        </p></span
+      >
+      <section class="how-it-works">
+        <h3 class="how-it-works__title">Как это работает?</h3>
+        <article class="tastes">
+          <div class="tastes__ttl-sbttl-wrapper">
+            <h4 class="tastes__title">Вкусы</h4>
+            <p class="tastes__subtitle">
+              Пейте фрукты, а не газировку со <br />
+              вкусовыми добавками, наши лимонады на 100% натуральны!
+            </p>
+          </div>
+          <img
+            class="tastes__image"
+            src="./images/jarritosKlubnichka.png"
+            alt=""
+          />
+        </article>
+        <article class="composition">
+          <div class="composition__ttl-sbttl-btn-wrapper">
+            <h4 class="composition__title">Состав</h4>
+            <p class="composition__subtitle">
+              Наши натуральные лимонады делаются <br />
+              из натуральных компонентов.
+            </p>
+            <button class="composition-button more-info">Попробовать</button>
+          </div>
+          <div class="composition__decoration"><!-- магик --></div>
+          <ul class="composition__list">
+            <li class="composition__item">Сок</li>
+            <li class="composition__item">Пюре</li>
+            <li class="composition__item">Вода</li>
+            <li class="composition__item">Пузыри</li>
+            <li class="composition__item">Витамины</li>
+          </ul>
+        </article>
+      </section>
+      <section class="naruralness">
+        <p class="naruralness__subtitle">SODA — натуральные лимонады!</p>
+        <div class="naruralness__image-wrapper">
+          <img
+            class="naruralness__image"
+            src="./images/jarritosMango.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="semples">
+        <div class="semples__ttl-sbttl-wrapper">
+          <h4 class="semples__title">Семплы</h4>
+          <p class="semples__subtitle">
+            Хотите получить семплы каждого вкуса, <br />
+            чтобы понять что нравится вам? заполните форму!
+          </p>
+        </div>
+        <form class="semples__form" action="#" method="post">
+          <h4 class="semples__form-title">Семплы</h4>
+          <fieldset class="semples__fieldset">
+            <div class="semples__nm-snm-wrapper">
+              <div class="semples__name-wrapper">
+                <label class="semples__label" for="name">Имя *</label>
+                <input class="semples__input" type="text" id="name" />
+              </div>
+              <div class="semples__surname-wrapper">
+                <label class="semples__label" for="surname">Фамилия *</label>
+                <input class="semples__input" type="text" id="surname" />
+              </div>
+            </div>
+            <div class="semples__email-wrapper">
+              <label class="semples__label" for="email">Email *<br /></label>
+              <input class="semples__input" type="email" id="email" />
+            </div>
+          </fieldset>
+          <input
+            class="semples__submit"
+            type="submit"
+            id="submit"
+            value="Запросить"
+          />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <img class="footer__logo-image" src="./images/CircleSoda.svg" alt="" />
+      <div class="footer__nav-ctct-cpr-wrapper">
+        <div class="footer__nav-ctct-wrapper">
+          <nav class="footer__navigation">
+            <h5 class="footer__navigation-title">Меню</h5>
+            <ul class="footer__navigation-list">
+              <li class="footer__navigation-item">Вкусы</li>
+              <li class="footer__navigation-item">Состав</li>
+              <li class="footer__navigation-item">Семплы</li>
+            </ul>
+          </nav>
+          <div class="contacts">
+            <h5 class="contacts__title">Контакты</h5>
+            <ul class="contacts__list">
+              <li class="contacts__item">press@soda.io</li>
+              <li class="contacts__item">connect@soda.io</li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">2021 Soda, Inc. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
