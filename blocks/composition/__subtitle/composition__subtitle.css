@@ -1,0 +1,20 @@
+.composition__subtitle {
+  margin: 0 0 205px 100px;
+  padding: 0;
+  width: 386px;
+  height: fit-content;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.72;
+  letter-spacing: 0.3px;
+  color: #FFF;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1439px) {
+  .composition__subtitle{
+    margin: 0 0 100px 60px;
+  }
+}

@@ -1,0 +1,14 @@
+.semples__surname-wrapper {
+  margin: 0 0 13px 13px;
+  padding: 0;
+  width: 310px;
+  border-bottom: 2px solid white;
+}
+
+@media screen and (max-width: 1439px) {
+  .semples__surname-wrapper{
+    margin: 12px 0 0 0;
+    width: 540px;
+    flex-direction: column;
+  }
+}

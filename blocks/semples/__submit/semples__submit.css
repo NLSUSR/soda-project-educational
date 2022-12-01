@@ -1,0 +1,22 @@
+.semples__submit {
+  margin: 0 0 0 30px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  width: 158px;
+  height: 55px;
+  background-color: #A27BFF;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.72;
+  letter-spacing: 0.3px;
+  color: #FFF;
+}
+
+@media screen and (max-width: 1439px) {
+  .semples__submit{
+    transform: translateY(-90px);
+  }
+}

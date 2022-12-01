@@ -1,0 +1,21 @@
+.naruralness__subtitle {
+  margin: 140px 216px 190px 154px;
+  padding: 0;
+  width: 460px;
+  height: fit-content;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.75rem;
+  line-height: 1.12;
+  letter-spacing: 0.3px;
+  color: #1E3264;
+}
+
+@media screen and (max-width: 1439px) {
+  .naruralness__subtitle{
+    margin: 70px auto 120px;
+    text-align: center;
+    flex-direction: column;
+  }
+}

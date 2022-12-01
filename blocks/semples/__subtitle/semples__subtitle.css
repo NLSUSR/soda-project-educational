@@ -1,0 +1,19 @@
+.semples__subtitle {
+  margin: 0;
+  padding: 0;
+  width: 457px;
+  height: fit-content;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  letter-spacing: 0.3px;
+  color: #1E3264;
+}
+
+@media screen and (max-width: 1439px) {
+  .semples__subtitle{
+    transform: translateY(2px);
+  }
+}

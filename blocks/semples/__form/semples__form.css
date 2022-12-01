@@ -1,0 +1,14 @@
+.semples__form {
+  margin: 60px 0 0 0;
+  padding: 0;
+  width: 693px;
+  height: 544px;
+  background-color: #016450;
+}
+
+@media screen and (max-width: 1439px) {
+  .semples__form{
+    margin: 0 auto;
+    width: 600px;
+  }
+}

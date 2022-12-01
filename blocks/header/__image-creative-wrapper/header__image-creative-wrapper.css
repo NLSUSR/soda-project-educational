@@ -1,0 +1,29 @@
+.header__image-creative-wrapper {
+  width: 169px;
+  height: 169px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 2;
+}
+
+.header__image-creative-wrapper:after {
+  content: url(../../../images/bigCircle.svg);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: -1;
+  top: -50px;
+  right: -50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__image-creative-wrapper{
+    top: 40px;
+    width: 128px;
+    height: 128px;
+  }
+  .header__image-creative-wrapper:after {
+    display: none;
+  }
+}

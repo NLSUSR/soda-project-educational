@@ -1,0 +1,13 @@
+.tastes__subtitle {
+  margin: 0;
+  padding: 0;
+  width: 386px;
+  height: fit-content;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.72;
+  letter-spacing: 0.3px;
+  color: #FFF;
+}

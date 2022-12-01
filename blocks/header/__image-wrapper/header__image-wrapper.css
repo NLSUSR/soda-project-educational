@@ -1,0 +1,28 @@
+.header__image-wrapper {
+  margin: 0 0 50px 50px;
+  padding: 0;
+  width: 783px;
+  height: 600px;
+  position: relative;
+}
+
+.header__image-wrapper:before {
+  content: url(../../../images/ananasDoubleSuperellipse.svg);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: -53px;
+  bottom: -40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__image-wrapper{
+    margin: 126px 50px 50px 50px;
+    width: 668px;
+    height: 514px;
+  }
+  .header__image-wrapper:before{
+    bottom: 18px;
+    right: 20px;
+  }
+}

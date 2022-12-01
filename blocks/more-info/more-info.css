@@ -1,0 +1,22 @@
+.more-info {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  width: 163px;
+  height: 55px;
+  background-color: #FFDB00;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.72;
+  letter-spacing: 0.3px;
+  color: #1E3264;
+}
+
+@media screen and (max-width: 1439px) {
+  .more-info{
+    width: ;
+  }
+}

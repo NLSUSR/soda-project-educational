@@ -1,0 +1,12 @@
+.semples__form-title {
+  margin: 24px 0 50px 30px;
+  padding: 0;
+  width: fit-content;
+  height: fit-content;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.25;
+  color: #FFF;
+}
