@@ -11,3 +11,9 @@
     width: 540px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .semples__name-wrapper{
+    width: 220px;
+  }
+}

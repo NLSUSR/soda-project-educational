@@ -4,7 +4,16 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .footer__navigation{
+  .footer__navigation {
     margin: 120px 0 0 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__navigation {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 50px;
+    padding: 0;
   }
 }

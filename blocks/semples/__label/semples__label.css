@@ -1,5 +1,5 @@
 .semples__label {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   width: 310px;
   height: fit-content;
@@ -10,5 +10,11 @@
   line-height: 1.72;
   letter-spacing: 0.3px;
   color: #FFF;
+}
 
+@media screen and (max-width: 767px) {
+  .semples__label {
+    font-size: 0.875rem;
+    line-height: 2.21;
+  }
 }

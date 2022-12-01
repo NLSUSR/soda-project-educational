@@ -14,3 +14,9 @@
     margin: 120px 0 0 97px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__contacts{
+    margin: 0 auto 50px;
+  }
+}

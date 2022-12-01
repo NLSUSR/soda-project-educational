@@ -7,12 +7,21 @@
   box-sizing: border-box;
   background-color: #9960f6;
   position: relative;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1439px) {
-  .header{
+  .header {
     flex-direction: column;
     max-width: 768px;
     height: 886px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    max-width: 320px;
+    height: fit-content;
   }
 }

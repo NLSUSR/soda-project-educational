@@ -12,3 +12,11 @@
     height: 364px;
   }
 }
+
+@media screen and (max-width:767px) {
+  .tastes__image {
+    margin: 0 auto 20px;
+    width: 240px;
+    height: 160px;
+  }
+}

@@ -15,8 +15,12 @@
   color: #1E3264;
 }
 
-@media screen and (max-width: 1439px) {
-  .more-info{
-    width: ;
+@media screen and (max-width: 767px) {
+  .more-info {
+    width: 152px;
+    height: 51px;
+    font-size: 1rem;
+    line-height: 1.94;
+
   }
 }

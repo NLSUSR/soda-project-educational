@@ -10,3 +10,11 @@
   letter-spacing: 0.5px;
   color: #1E3264;
 }
+
+@media screen and (max-width:767px) {
+  .how-it-works__title {
+    margin: 50px 0;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}

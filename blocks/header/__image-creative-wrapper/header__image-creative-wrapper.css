@@ -18,12 +18,22 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .header__image-creative-wrapper{
+  .header__image-creative-wrapper {
     top: 40px;
     width: 128px;
     height: 128px;
   }
+
   .header__image-creative-wrapper:after {
     display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__image-creative-wrapper {
+    top: 20px;
+    right: 20px;
+    width: 94px;
+    height: 94px;
   }
 }

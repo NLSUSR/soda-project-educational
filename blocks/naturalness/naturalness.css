@@ -1,4 +1,4 @@
-.naruralness {
+.naturalness {
   margin: 0;
   padding: 0;
   display: flex;
@@ -9,10 +9,17 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .naruralness{
+  .naturalness {
     margin: 0 auto;
-    width: 768px;
+    max-width: 768px;
     height: 910px;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .naturalness {
+    max-width: 280px;
+    height: 487px;
   }
 }

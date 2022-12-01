@@ -1,0 +1,46 @@
+.naturalness__image-wrapper {
+  margin: 20px 0 0;
+  padding: 0;
+  width: 430px;
+  height: 610px;
+  position: relative;
+  overflow: hidden;
+}
+
+.naturalness__image-wrapper::before {
+  margin: 0;
+  padding: 0;
+  content: "";
+  background-image: url(../../../images/mangoOctagon.svg);
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  background-size: 120px 120px;
+  position: absolute;
+  top: 22px;
+  left: -129px;
+}
+
+@media screen and (max-width: 1439px) {
+  .naturalness__image-wrapper{
+    margin: 0 auto;
+  }
+
+  .naturalness__image-wrapper::before {
+    margin: -16px 0 0 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .naturalness__image-wrapper{
+    width: 280px;
+    height: 397px;
+  }
+
+  .naturalness__image-wrapper::before {
+    margin: 0;
+    background-image: url(../../../images/mangoSmall.svg);
+    left: -3px;
+    top: 179px;
+  }
+}

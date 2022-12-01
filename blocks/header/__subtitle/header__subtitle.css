@@ -1,7 +1,7 @@
 .header__subtitle {
   margin: 12px 0 168px 0;
   padding: 0;
-  width: 457px;
+  max-width: 457px;
   height: 96px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -9,13 +9,20 @@
   font-size: 2.5rem;
   line-height: 1.2;
   color: #FFF;
-  /* transform: translateY(12px); */
 }
 
 @media screen and (max-width: 1439px) {
   .header__subtitle {
-    margin: 0 48px 0 0;
+    margin: 0;
     font-size: 1.875rem;
     line-height: 1.27;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__subtitle {
+    margin-bottom: -17px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
   }
 }
