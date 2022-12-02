@@ -15,12 +15,17 @@
   color: #1E3264;
 }
 
+.more-info:hover {
+  transition: border-radius .5s ease;
+  border: 2px solid #1E3264;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 767px) {
   .more-info {
     width: 152px;
     height: 51px;
     font-size: 1rem;
     line-height: 1.94;
-
   }
 }

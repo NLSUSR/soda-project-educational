@@ -19,6 +19,7 @@
 @media screen and (max-width: 767px) {
   .semples {
     margin: 0 auto;
+    /* margin-top: -50px; */
     width: 280px;
     height: fit-content;
     transform: translateY(-50px);

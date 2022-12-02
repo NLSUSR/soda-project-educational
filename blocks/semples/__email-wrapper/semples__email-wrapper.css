@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 768px) {
   .semples__email-wrapper{
-    /* transform: translateY(-36px); */
     width: 220px;
+    margin-top: 9px;
   }
 }

@@ -1,5 +1,5 @@
 .semples__submit {
-  margin: 0 0 0 30px;
+  margin: 179px 0 30px 30px;
   padding: 0;
   border: 0;
   outline: 0;
@@ -15,15 +15,24 @@
   color: #FFF;
 }
 
+.semples__submit:hover{
+  transition: border-radius .5s ease;
+  border: 2px solid #E1FD2C;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 1439px) {
-  .semples__submit{
-    margin: 102px 0 0 60px;
+  .semples__submit {
+    margin: 90px 0 30px 30px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .semples__submit{
-    margin: 60px  20px 20px;
+  .semples__submit {
+    margin: 60px 20px 20px;
     width: 220px;
+    height: 51px;
+    font-size: 1rem;
+    line-height: 1.94;
   }
 }

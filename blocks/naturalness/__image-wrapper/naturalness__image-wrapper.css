@@ -4,18 +4,14 @@
   width: 430px;
   height: 610px;
   position: relative;
-  overflow: hidden;
 }
 
 .naturalness__image-wrapper::before {
   margin: 0;
   padding: 0;
-  content: "";
-  background-image: url(../../../images/mangoOctagon.svg);
-  background-repeat: no-repeat;
+  content: url(../../../images/mangoOctagon.svg);
   width: 120px;
   height: 120px;
-  background-size: 120px 120px;
   position: absolute;
   top: 22px;
   left: -129px;
@@ -39,7 +35,7 @@
 
   .naturalness__image-wrapper::before {
     margin: 0;
-    background-image: url(../../../images/mangoSmall.svg);
+    content: url(../../../images/mangoSmall.svg);
     left: -3px;
     top: 179px;
   }

@@ -27,7 +27,9 @@
           Вкусные лимонады <br />
           из фруктов
         </h2>
-        <button class="header__button more-info">Подробнее</button>
+        <a href="#composition" class="header__button"
+          ><button class="more-info">Подробнее</button></a
+        >
       </div>
     </header>
     <main class="content">
@@ -53,15 +55,14 @@
             alt=""
           />
         </article>
-        <article class="composition">
+        <article class="composition" id="composition">
           <div class="composition__ttl-sttl">
             <h4 class="composition__title">Состав</h4>
             <p class="composition__subtitle">
-              Наши натуральные лимонады делаются
-              из натуральных компонентов.
+              Наши натуральные лимонады делаются из натуральных компонентов.
             </p>
           </div>
-          <button class="composition__button more-info">Попробовать</button>
+          <a href="#semples" class="composition__button"><button class="more-info">Попробовать</button></a>
           <div class="composition__decoration"></div>
           <ul class="composition__list">
             <li class="composition__item">Сок</li>
@@ -82,15 +83,15 @@
           />
         </div>
       </section>
-      <section class="semples">
+      <section class="semples" id="semples">
         <div class="semples__ttl-sbttl-wrapper">
           <h4 class="semples__title">Семплы</h4>
           <p class="semples__subtitle">
-            Хотите получить семплы каждого вкуса,
-            чтобы понять что нравится вам? заполните форму!
+            Хотите получить семплы каждого вкуса, чтобы понять что нравится вам?
+            заполните форму!
           </p>
         </div>
-        <form class="semples__form" action="#" method="post">
+        <form class="semples__form" action="#" method="post" id="semplesForm">
           <h4 class="semples__form-title">Семплы</h4>
           <fieldset class="semples__fieldset">
             <div class="semples__nm-snm-wrapper">
@@ -142,5 +143,6 @@
         <p class="footer__copyright">2021 Soda, Inc. All Rights Reserved.</p>
       </div>
     </footer>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

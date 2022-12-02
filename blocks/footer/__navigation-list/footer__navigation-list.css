@@ -7,5 +7,6 @@
 @media screen and (max-width: 1439px) {
   .footer__navigation-list {
     margin: 0;
+    text-align: center;
   }
 }

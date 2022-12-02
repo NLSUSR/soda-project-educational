@@ -11,7 +11,7 @@
   color: #FFF;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 767px) {
   .semples__form-title{
     margin: 20px 0 40px 20px;
     font-size: 1.25rem;

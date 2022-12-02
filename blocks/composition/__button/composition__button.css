@@ -1,4 +1,5 @@
 .composition__button {
+  /* transform: translateY(-145px) translateX(100px); */
   margin: -145px 0 0 100px;
   padding: 0;
   grid-area: button;

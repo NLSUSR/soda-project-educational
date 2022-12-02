@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 768px) {
   .semples__surname-wrapper{
-    /* transform: translateY(-18px); */
     width: 220px;
+    margin-top: 9px;
   }
 }
