@@ -1,0 +1,13 @@
+.footer__contacts-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__contacts-list{
+    margin-top: 0px;
+    text-align: center;
+  }
+}

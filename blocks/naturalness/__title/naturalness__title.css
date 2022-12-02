@@ -1,0 +1,30 @@
+.naturalness__title {
+  margin: 140px 216px 190px 154px;
+  padding: 0;
+  max-width: 460px;
+  height: fit-content;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.75rem;
+  line-height: 1.12;
+  letter-spacing: 0.3px;
+  color: #1E3264;
+}
+
+@media screen and (max-width: 1439px) {
+  .naturalness__title {
+    margin: 70px auto 120px;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .naturalness__title {
+    margin: 0 auto 50px;
+    width: 280px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

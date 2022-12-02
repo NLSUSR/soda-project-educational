@@ -1,0 +1,19 @@
+.semples__name-wrapper {
+  margin: 0 0 13px 0;
+  padding: 0;
+  width: 310px;
+  border-bottom: 2px solid white;
+}
+
+@media screen and (max-width: 1439px) {
+  .semples__name-wrapper{
+    margin: 0;
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .semples__name-wrapper{
+    width: 220px;
+  }
+}

@@ -1,0 +1,12 @@
+.footer__navigation-list {
+  margin: 0 0 142px 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__navigation-list {
+    margin: 0;
+    text-align: center;
+  }
+}

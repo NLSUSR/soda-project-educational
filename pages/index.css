@@ -1,0 +1,65 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter/inter-fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/more-info/more-info.css);
+/* хедер */
+@import url(../blocks/header/__image-creative-wrapper/header__image-creative-wrapper.css);
+@import url(../blocks/header/__image-creative/header__image-creative.css);
+@import url(../blocks/header/__image-wrapper/header__image-wrapper.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__logo-title/header__logo-title.css);
+@import url(../blocks/header/__sbttl-btn-wrapper/header__sbttl-btn-wrapper.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/header.css);
+/* креатив */
+@import url(../blocks/creative/__paragraph/creative__paragraph.css);
+@import url(../blocks/creative/creative.css);
+/* как это работает */
+@import url(../blocks/how-it-works/__title/how-it-works__title.css);
+/* вкусы */
+@import url(../blocks/tastes/__image/tastes__image.css);
+@import url(../blocks/tastes/__subtitle/tastes__subtitle.css);
+@import url(../blocks/tastes/__title/tastes__title.css);
+@import url(../blocks/tastes/__ttl-sbttl-wrapper/tastes__ttl-sbttl-wrapper.css);
+@import url(../blocks/tastes/tastes.css);
+/* состав */
+@import url(../blocks/composition/__button/composition__button.css);
+@import url(../blocks/composition/__decoration/composition__decoration.css);
+@import url(../blocks/composition/__item/composition__item.css);
+@import url(../blocks/composition/__list/composition__list.css);
+@import url(../blocks/composition/__subtitle/composition__subtitle.css);
+@import url(../blocks/composition/__title/composition__title.css);
+@import url(../blocks/composition/composition.css);
+/* натуральность */
+@import url(../blocks/naturalness/__image-wrapper/naturalness__image-wrapper.css);
+@import url(../blocks/naturalness/__image/naturalness__image.css);
+@import url(../blocks/naturalness/__title/naturalness__title.css);
+@import url(../blocks/naturalness/naturalness.css);
+/* семплы */
+@import url(../blocks/semples/__email-wrapper/semples__email-wrapper.css);
+@import url(../blocks/semples/__fieldset/semples__fieldset.css);
+@import url(../blocks/semples/__form-title/semples__form-title.css);
+@import url(../blocks/semples/__form/semples__form.css);
+@import url(../blocks/semples/__input/semples__input.css);
+@import url(../blocks/semples/__label/semples__label.css);
+@import url(../blocks/semples/__name-wrapper/semples__name-wrapper.css);
+@import url(../blocks/semples/__nm-snm-wrapper/semples__nm-snm-wrapper.css);
+@import url(../blocks/semples/__submit/semples__submit.css);
+@import url(../blocks/semples/__subtitle/semples__subtitle.css);
+@import url(../blocks/semples/__surname-wrapper/semples__surname-wrapper.css);
+@import url(../blocks/semples/__title/semples__title.css);
+@import url(../blocks/semples/__ttl-sbttl-wrapper/semples__ttl-sbttl-wrapper.css);
+@import url(../blocks/semples/semples.css);
+/* футер */
+@import url(../blocks/footer/__contacts/__contacts-item/footer__contacts-item.css);
+@import url(../blocks/footer/__contacts/__contacts-list/footer__contacts-list.css);
+@import url(../blocks/footer/__contacts/__contacts-title/footer__contacts-title.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__logo-image/footer__logo-image.css);
+@import url(../blocks/footer/__nav-ctct-wrapper/footer__nav-ctct-wrapper.css);
+@import url(../blocks/footer/__navigation-item/footer__navigation-item.css);
+@import url(../blocks/footer/__navigation-list/footer__navigation-list.css);
+@import url(../blocks/footer/__navigation-title/footer__navigation-title.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/footer.css);

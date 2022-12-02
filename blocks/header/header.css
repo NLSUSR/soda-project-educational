@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  width: 1440px;
+  height: 760px;
+  box-sizing: border-box;
+  background-color: #9960f6;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1439px) {
+  .header {
+    flex-direction: column;
+    max-width: 768px;
+    height: 886px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    max-width: 320px;
+    height: fit-content;
+  }
+}

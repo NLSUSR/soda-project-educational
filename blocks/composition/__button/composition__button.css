@@ -1,0 +1,27 @@
+.composition__button {
+  /* transform: translateY(-145px) translateX(100px); */
+  margin: -145px 0 0 100px;
+  padding: 0;
+  grid-area: button;
+}
+
+@media screen and (max-width: 1439px) {
+  .composition__button {
+    margin: 45px 0 60px 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .composition__button {
+    width: 163px;
+    height: 55px;
+    margin: 60px 0 20px 20px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.72;
+    letter-spacing: 0.3px;
+    color: #1E3264;
+  }
+}

@@ -1,0 +1,48 @@
+.header__image-wrapper {
+  margin: 0 0 50px 50px;
+  padding: 0;
+  width: 783px;
+  height: 600px;
+  position: relative;
+}
+
+.header__image-wrapper::before {
+  content: "";
+  background-image: url(../../../images/ananasDoubleSuperellipse.svg);
+  background-size: 149px 146px;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 149px;
+  height: 146px;
+  position: absolute;
+  right: -53px;
+  bottom: -40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__image-wrapper {
+    margin: 126px 50px 50px 50px;
+    width: 668px;
+    height: 514px;
+  }
+
+  .header__image-wrapper::before {
+    bottom: 18px;
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__image-wrapper {
+    margin: 50px 0 0 20px;
+    width: 280px;
+    height: 216px;
+  }
+
+  .header__image-wrapper::before {
+    bottom: -87px;
+    right: -48px;
+    background-size: 95px 105px;
+  }
+}

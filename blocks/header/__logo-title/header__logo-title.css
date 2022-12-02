@@ -1,0 +1,27 @@
+.header__logo-title {
+  margin: 40px 0 40px 50px;
+  padding: 0;
+  width: fit-content;
+  height: fit-content;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffdb00;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__logo-title {
+    margin: 40px 0 0 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo-title {
+    margin: 20px 0 0 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}

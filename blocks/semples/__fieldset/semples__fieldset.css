@@ -1,0 +1,12 @@
+.semples__fieldset {
+  margin: 0 30px 0 30px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .semples__fieldset{
+    margin: 0 0 0 20px;
+  }
+}
