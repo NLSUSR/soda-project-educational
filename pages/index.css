@@ -33,7 +33,7 @@
 /* натуральность */
 @import url(../blocks/naturalness/__image-wrapper/naturalness__image-wrapper.css);
 @import url(../blocks/naturalness/__image/naturalness__image.css);
-@import url(../blocks/naturalness/__subtitle/naturalness__subtitle.css);
+@import url(../blocks/naturalness/__title/naturalness__title.css);
 @import url(../blocks/naturalness/naturalness.css);
 /* семплы */
 @import url(../blocks/semples/__email-wrapper/semples__email-wrapper.css);

@@ -1,4 +1,4 @@
-.naturalness__subtitle {
+.naturalness__title {
   margin: 140px 216px 190px 154px;
   padding: 0;
   max-width: 460px;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .naturalness__subtitle {
+  .naturalness__title {
     margin: 70px auto 120px;
     text-align: center;
     flex-direction: column;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .naturalness__subtitle {
+  .naturalness__title {
     margin: 0 auto 50px;
     width: 280px;
     font-size: 20px;
