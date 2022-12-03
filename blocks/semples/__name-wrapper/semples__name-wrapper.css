@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .semples__name-wrapper{
     width: 220px;
   }

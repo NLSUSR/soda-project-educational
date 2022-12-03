@@ -2,7 +2,9 @@
 @import url(../vendor/fonts/inter/inter-fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/more-info/more-info.css);
+@import url(../blocks/links-hover/links-hover.css);
 /* хедер */
+@import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__image-creative-wrapper/header__image-creative-wrapper.css);
 @import url(../blocks/header/__image-creative/header__image-creative.css);
 @import url(../blocks/header/__image-wrapper/header__image-wrapper.css);
@@ -51,9 +53,9 @@
 @import url(../blocks/semples/__ttl-sbttl-wrapper/semples__ttl-sbttl-wrapper.css);
 @import url(../blocks/semples/semples.css);
 /* футер */
-@import url(../blocks/footer/__contacts/__contacts-item/footer__contacts-item.css);
-@import url(../blocks/footer/__contacts/__contacts-list/footer__contacts-list.css);
-@import url(../blocks/footer/__contacts/__contacts-title/footer__contacts-title.css);
+@import url(../blocks/footer/__contacts-item/footer__contacts-item.css);
+@import url(../blocks/footer/__contacts-list/footer__contacts-list.css);
+@import url(../blocks/footer/__contacts-title/footer__contacts-title.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__logo-image/footer__logo-image.css);
@@ -62,4 +64,5 @@
 @import url(../blocks/footer/__navigation-list/footer__navigation-list.css);
 @import url(../blocks/footer/__navigation-title/footer__navigation-title.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/footer.css);

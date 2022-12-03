@@ -1,4 +1,27 @@
-.header__button{
+.header__button {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 163px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .header__button {
     margin: 0;
     padding: 0;
+    width: 152px;
+    height: 51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.94;
+    letter-spacing: 0.3px;
+    color: #1E3264;
+
+  }
 }

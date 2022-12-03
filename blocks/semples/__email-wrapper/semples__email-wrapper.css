@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .semples__email-wrapper{
     width: 220px;
     margin-top: 9px;

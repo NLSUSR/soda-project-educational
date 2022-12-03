@@ -9,13 +9,13 @@
   color: #fff;
 }
 
-#email {
+.semples__input_email {
   width: 633px;
 }
 
 @media screen and (max-width: 1439px) {
 
-  #email,
+  .semples__input_email,
   .semples__input {
     width: 540px;
   }
@@ -23,7 +23,8 @@
 }
 
 @media screen and (max-width: 767px) {
-  #email,
+
+  .semples__input_email,
   .semples__input {
     margin: 0 auto 11px;
     width: 220px;

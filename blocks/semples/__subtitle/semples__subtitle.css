@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1439px) {
   .semples__subtitle {
-    transform: translateY(2px);
+    margin: 0;
   }
 }
 
