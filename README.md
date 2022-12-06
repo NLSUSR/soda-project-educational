@@ -8,8 +8,6 @@
 
 pixel-perfect
 
-flex
-
 grid 
 
 nested bem 
@@ -24,4 +22,4 @@ native js
 
 в js реализован сбор данных из формы
 
-макет figma [https://clck.ru/32qabQ]
+макет figma [https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=6%3A1121&t=XYQnGEvat8ZTRG5c-1]

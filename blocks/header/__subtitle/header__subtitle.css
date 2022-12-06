@@ -1,5 +1,6 @@
 .header__subtitle {
   margin: 12px 0 168px 0;
+  transform: translateY(-2px);
   padding: 0;
   max-width: 437px;
   max-height: fit-content;
@@ -14,7 +15,7 @@
 @media screen and (max-width: 1439px) {
   .header__subtitle {
     max-width: 300px;
-    margin: 0;
+    margin: 2px 0 0 1px;
     font-size: 1.875rem;
     line-height: 1.27;
   }
@@ -23,8 +24,8 @@
 @media screen and (max-width: 767px) {
   .header__subtitle {
     margin: 0 0 30px 0;
+    transform: translateY(0);
     max-width: 220px;
-    max-height: fit-content;
     font-size: 1.25rem;
     line-height: 1.5rem;
   }

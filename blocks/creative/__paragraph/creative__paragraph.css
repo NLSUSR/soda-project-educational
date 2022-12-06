@@ -13,11 +13,12 @@
   color: #016450;
   width: max-content;
   transform: translateX(-93px);
+  overflow: hidden;
 }
 
 @media screen and (max-width:767px) {
   .creative__paragraph {
-    padding-top: 18px;
+    padding-top: 20px;
     height: 64px;
     font-size: 1.25rem;
     line-height: 1.5rem;

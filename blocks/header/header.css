@@ -2,7 +2,7 @@
   display: flex;
   margin: 0 auto;
   padding: 0;
-  width: 1440px;
+  max-width: 1440px; 
   height: 760px;
   box-sizing: border-box;
   background-color: #9960f6;
@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 1439px) {
+ @media screen and (max-width: 1439px) { 
   .header {
     flex-direction: column;
     max-width: 768px;

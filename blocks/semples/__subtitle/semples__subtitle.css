@@ -1,7 +1,8 @@
 .semples__subtitle {
+  transform: translateX(1px);
   margin: 0;
   padding: 0;
-  width: 457px;
+  max-width: 457px;
   height: fit-content;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -20,7 +21,7 @@
 
 @media screen and (max-width: 767px) {
   .semples__subtitle {
-    width: 240px;
+    max-width: 240px;
     font-size: 0.875rem;
     line-height: 1.36;
   }

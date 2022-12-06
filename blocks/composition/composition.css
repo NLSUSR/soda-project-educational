@@ -5,14 +5,14 @@
     "button . .";
   margin: 0 auto 50px;
   padding: 0;
-  width: 1340px;
-  height: fit-content;
+  max-width: 1340px;
+  max-height: fit-content;
   background-color: #8556F8;
 }
 
 @media screen and (max-width: 1439px) {
   .composition {
-    width: 668px;
+    max-width: 668px;
     grid-template-areas:
       "ttl-sttl . "
       "composition decoration"
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 767px) {
   .composition {
-    width: 280px;
+    max-width: 280px;
     grid-template-areas:
       "ttl-sttl"
       "composition"

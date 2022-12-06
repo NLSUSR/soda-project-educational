@@ -1,5 +1,5 @@
 .header__image-creative-wrapper {
-  width: 169px;
+  max-width: 169px;
   height: 169px;
   position: absolute;
   top: 50px;
@@ -20,7 +20,7 @@
 @media screen and (max-width: 1439px) {
   .header__image-creative-wrapper {
     top: 40px;
-    width: 128px;
+    max-width: 128px;
     height: 128px;
   }
 
@@ -33,7 +33,7 @@
   .header__image-creative-wrapper {
     top: 20px;
     right: 20px;
-    width: 94px;
+    max-width: 94px;
     height: 94px;
   }
 }

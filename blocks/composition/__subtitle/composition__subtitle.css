@@ -1,7 +1,7 @@
 .composition__subtitle {
   margin: 0 0 205px 100px;
   padding: 0;
-  width: 386px;
+  max-width: 386px;
   height: fit-content;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;

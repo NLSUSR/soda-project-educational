@@ -1,0 +1,19 @@
+/* гениальное решение */
+.document { 
+  margin: 0 auto;
+  max-width: 1440px;
+  max-height: fit-content;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1439px) {
+  .document{
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .document{
+    max-width: 320px;
+  }
+}

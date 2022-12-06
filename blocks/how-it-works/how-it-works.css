@@ -1,7 +1,7 @@
 .how-it-works {
   margin: 0 auto 50px;
   padding: 0;
-  width: fit-content;
-  height: fit-content;
+  max-width: fit-content;
+  max-height: fit-content;
   box-sizing: border-box;
 }

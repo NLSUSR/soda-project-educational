@@ -1,8 +1,8 @@
 .semples__form-title {
-  margin: 24px 0 50px 30px;
+  margin: 24px 0 50px 31px;
   padding: 0;
-  width: fit-content;
-  height: fit-content;
+  max-width: fit-content;
+  max-height: fit-content;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 767px) {
   .semples__form-title{
-    margin: 20px 0 40px 20px;
+    margin: 22px 0 40px 20px;
     font-size: 1.25rem;
     line-height: 1.5rem;
   }

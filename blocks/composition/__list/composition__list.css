@@ -1,7 +1,7 @@
 .composition__list {
-  margin: 90px 0 50px 30px;
+  margin: 91px 0 50px 22px;
   padding: 0;
-  width: fit-content;
+  max-width: fit-content;
   list-style: none;
   grid-area: composition;
 }
