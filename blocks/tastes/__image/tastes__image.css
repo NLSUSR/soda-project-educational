@@ -1,0 +1,22 @@
+.tastes__image {
+  margin: 90px 0 90px 236px;
+  padding: 0;
+  max-width: 518px;
+  max-height: 345px;
+}
+
+@media screen and (max-width: 1439px) {
+  .tastes__image{
+    margin: 59px 0 60px 60px;
+    max-width: 548px;
+    max-height: 364px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .tastes__image {
+    margin: 0 auto 20px;
+    max-width: 240px;
+    max-height: 160px;
+  }
+}

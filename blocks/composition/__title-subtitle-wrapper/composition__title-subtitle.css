@@ -1,0 +1,11 @@
+.composition__title-subtitle-wrapper{
+    margin: 90px 0 0 100px;
+    padding: 0;
+    grid-area: ttl-sttl;
+}
+
+@media screen and (max-width: 1439px) {
+    .composition__title-subtitle-wrapper{
+        margin: 0;
+    }
+}

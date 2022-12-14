@@ -1,0 +1,12 @@
+.footer__navigation-contacts-wrapper {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__navigation-contacts-wrapper {
+    flex-direction: column;
+    
+  }
+}

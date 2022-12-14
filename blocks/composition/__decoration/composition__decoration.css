@@ -1,0 +1,47 @@
+.composition__decoration {
+  margin: 0;
+  padding: 0;
+  max-width: fit-content;
+  height: 580px;
+  box-sizing: border-box;
+  grid-area: decoration;
+}
+
+.composition__decoration::before {
+  display: block;
+  margin: 123px 0 0 37px;
+  padding: 0;
+  max-width: 185px;
+  height: 185px;
+  content: url(../../../images/greenCircle.svg);
+}
+
+.composition__decoration::after {
+  display: block;
+  margin: 13px 0 0 139px;
+  transform: translateX(-3px);
+  padding: 0;
+  max-width: 138px;
+  height: 138px;
+  content: url(../../../images/orangeCircle.svg);
+}
+
+@media screen and (max-width: 1439px) {
+  .composition__decoration {
+    margin: -125px 0 0 -185px;
+  }
+
+  .composition__decoration::before {
+    transform: translateX(60px) translateY(2px);
+  }
+
+  .composition__decoration::after {
+    transform: translateX(5px) translateY(9px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .composition__decoration {
+    display: none;
+  }
+}

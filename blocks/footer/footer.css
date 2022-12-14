@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  max-height: fit-content;
+  height: 500px;
+  background-color: #7A54F9;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer{
+    margin: 0 auto;
+    max-width: 768px;
+    height: 470px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer{
+    margin-top: -50px;
+    max-width: 320px;
+    height: fit-content;
+    flex-direction: column;
+  }
+}
